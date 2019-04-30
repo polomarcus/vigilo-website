@@ -11,7 +11,7 @@ help:
 	@grep "##" Makefile | grep -v "@grep"
 
 themes/hugo-theme-learn:
-	git clone https://github.com/matcornic/hugo-theme-learn.git
+	git clone https://github.com/matcornic/hugo-theme-learn.git themes/hugo-theme-learn
 
 version: ## Show hugo version
 	docker run --rm -it klakegg/hugo:${VERSION} version
